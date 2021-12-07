@@ -1,0 +1,6 @@
+__pycache__
+result/main/*
+!result/main/.gitkeep
+result/thread/*
+!result/thread/.gitkeep
+
