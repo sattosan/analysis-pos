@@ -74,10 +74,10 @@ def generate_graph(dirpath, dict):
     list = dict.items()
     x, y = zip(*list)
 
-    plt.bar(x, y, width=0.5, align="center")
+    plt.barh(x, y, align="center")
     # 棒グラフ上に数値を書く
     for _x, _y in zip(x, y):
-        plt.text(_x, _y, _y, ha='center', va='bottom')
+        plt.text(_y, _x, _y, ha='left', va='center')
 
     timestamp = datetime.datetime.now().strftime(config.TIMESTAMP_FORMAT)
     output_filepath = f'{dirpath}/result_{timestamp}.png'

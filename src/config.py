@@ -11,6 +11,7 @@ POS_JP_DICT = {
     'VERB': '動詞',
     'ADJ': '形容詞',
     'ADV': '副詞',
+    'CCONJ': '接続詞',
     'INTJ': '間投詞',
     'PRON': '代名詞',
     'NUM': '数詞',
