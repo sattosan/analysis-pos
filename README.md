@@ -19,6 +19,9 @@
 
 本ツールを実行するとワードで使われた品詞をカウントし、下記のような結果を返す。
 
+<img src="https://user-images.githubusercontent.com/20574756/145008899-d95f68fb-0392-4378-a112-0db25e88295e.png" width=50%>
+
+
 ```bash
 {'形容詞': 4, '名詞': 40, '記号': 4, '接辞': 1, '固有名詞': 1, '助動詞': 2, '接置詞': 3, '数詞': 1, '代名詞': 1, '動詞': 1}
 ```
@@ -33,16 +36,16 @@
 
 依存パッケージは以下の通り
 
-python = ">=3.9,<3.11"
-ginza = "^5.0.3"
-ja-ginza = "^5.0.0"
-emoji = "^1.6.1"
-mojimoji = "^0.0.12"
-asyncio = "^3.4.3"
-tqdm = "^4.62.3"
-neologdn = "^0.5.1"
-matplotlib = "^3.5.0"
-japanize-matplotlib = "^1.1.3"
+- python = ">=3.9,<3.11"
+- ginza = "^5.0.3"
+- ja-ginza = "^5.0.0"
+- emoji = "^1.6.1"
+- mojimoji = "^0.0.12"
+- asyncio = "^3.4.3"
+- tqdm = "^4.62.3"
+- neologdn = "^0.5.1"
+- matplotlib = "^3.5.0"
+- japanize-matplotlib = "^1.1.3"
 
 詳細は`pyproject.toml`を参照
 
