@@ -36,16 +36,16 @@
 
 依存パッケージは以下の通り
 
-python = ">=3.9,<3.11"
-ginza = "^5.0.3"
-ja-ginza = "^5.0.0"
-emoji = "^1.6.1"
-mojimoji = "^0.0.12"
-asyncio = "^3.4.3"
-tqdm = "^4.62.3"
-neologdn = "^0.5.1"
-matplotlib = "^3.5.0"
-japanize-matplotlib = "^1.1.3"
+- python = ">=3.9,<3.11"
+- ginza = "^5.0.3"
+- ja-ginza = "^5.0.0"
+- emoji = "^1.6.1"
+- mojimoji = "^0.0.12"
+- asyncio = "^3.4.3"
+- tqdm = "^4.62.3"
+- neologdn = "^0.5.1"
+- matplotlib = "^3.5.0"
+- japanize-matplotlib = "^1.1.3"
 
 詳細は`pyproject.toml`を参照
 
