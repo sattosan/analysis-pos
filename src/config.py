@@ -1,5 +1,5 @@
 FILE_HEADER = ['keyword', 'token_pos']
-INPUT_FILEPATH = 'keywords.csv'
+INPUT_FILEPATH = 'input.csv'
 NORMAL_OUTPUT_DIRPATH = './result/main'
 THREAD_OUTPUT_DIRPATH = './result/thread'
 TIMESTAMP_FORMAT = '%Y%m%d%H%M%S'

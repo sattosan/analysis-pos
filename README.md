@@ -64,7 +64,7 @@ $ poetry install
 ### 通常の実行方法
 
 ```bash
-$ poetry run python main.py
+$ poetry run python src/main.py
 ========ファイル読み込み開始========
 100%|█████████████████████████████████████████████| 30/30 [00:00<00:00, 35128.17it/s]
 ========ファイル読み込み完了========
@@ -78,7 +78,7 @@ $ poetry run python main.py
 ### 並列による実行方法
 
 ```bash
-$ poetry run python thread-main.py
+$ poetry run python src/thread-main.py
 ========ファイル読み込み開始========
 100%|█████████████████████████████████████████████| 30/30 [00:00<00:00, 35128.17it/s]
 ========ファイル読み込み完了========
