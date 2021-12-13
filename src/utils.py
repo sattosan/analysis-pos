@@ -2,6 +2,7 @@ import csv
 import datetime
 
 import emoji
+import japanize_matplotlib
 import neologdn
 import matplotlib.pyplot as plt
 import mojimoji
