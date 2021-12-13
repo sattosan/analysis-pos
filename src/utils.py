@@ -2,7 +2,6 @@ import csv
 import datetime
 
 import emoji
-import japanize_matplotlib
 import neologdn
 import matplotlib.pyplot as plt
 import mojimoji
@@ -40,7 +39,7 @@ def get_file_contents(input_filepath, limit=None):
     with open(input_filepath, mode='r') as f:
         for index, text in tqdm(enumerate(f), total=num_contents):
             # limitが指定されなければ全行読み込む
-            if not limit is None and index >= limit:
+            if limit is not None and index >= limit:
                 break
             # 英数字や記号で構成されるワードは、ブランド名の可能性が高いのでスキップする
             if checkAlnum(text):

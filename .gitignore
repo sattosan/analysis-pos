@@ -1,6 +1,6 @@
 __pycache__
+.venv
 result/main/*
 !result/main/.gitkeep
 result/thread/*
 !result/thread/.gitkeep
-
